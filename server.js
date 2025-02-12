@@ -33,7 +33,7 @@ app.use("/api/examination",examinationRouter);
 app.use("/api/notice",noticeRouter);
 
 //Mongodb Connection
-const URL = process.env.URL;
+const URL = process.env.URL1;
 mongoose
   .connect(URL)
   .then(() => {
